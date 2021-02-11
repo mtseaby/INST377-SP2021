@@ -1,10 +1,10 @@
 /* Add some css styles based on the tutorial at javascript.info: introduction to browser events
  https://javascript.info/introduction-browser-events */
  body{
-    background-color: #6091C3;
-  }
-    
- .arrow {
+  background-color: #7cffff;
+}
+
+.arrow {
     padding: 0;
     background: #ddd;
     border-radius: 15px;
@@ -42,13 +42,13 @@
   ul li {
     display: inline-block; 
   }
-  /* Custom */
+
   button.arrow {
     position: absolute;
-    height: 100px;
+    height: 50px;
     width: 30px;
-    top: 22px;
-    float:left;
+    top: 50px;
+    float:left; 
   }
   button.arrow.prev {
     left: 10px;
@@ -77,4 +77,5 @@
     list-style: none;
     font-size: 0;
     transition: transform 0.35s ease-in-out;
-  }
+  } 
+ 
